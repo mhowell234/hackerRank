@@ -1,15 +1,4 @@
-/*
- * Complete the 'divisibleSumPairs' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts following parameters:
- *  1. INTEGER n
- *  2. INTEGER k
- *  3. INTEGER_ARRAY ar
- */
-
 fun divisibleSumPairs(n: Int, k: Int, ar: Array<Int>): Int {
-    // Write your code here
     mutableListOf<Pair<Int, Int>>()
 
     var matches = 0

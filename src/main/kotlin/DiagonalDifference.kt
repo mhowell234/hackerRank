@@ -1,12 +1,5 @@
 import kotlin.math.abs
 
-/*
- * Complete the 'diagonalDifference' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts 2D_INTEGER_ARRAY arr as parameter.
- */
-
 fun diagonalDifference(arr: Array<Array<Int>>): Int {
     var i = 0
     var primary = 0
@@ -24,8 +17,6 @@ fun diagonalDifference(arr: Array<Array<Int>>): Int {
     }
 
     return abs(primary - secondary)
-    // Write your code here
-
 }
 
 fun main(args: Array<String>) {

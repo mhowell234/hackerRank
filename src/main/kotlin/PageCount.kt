@@ -1,15 +1,6 @@
 import kotlin.math.ceil
 import kotlin.math.min
 
-/*
- * Complete the 'pageCount' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts following parameters:
- *  1. INTEGER n
- *  2. INTEGER p
- */
-
 fun pageCount(n: Int, p: Int): Int {
     var startPagesTurned = 0
     if (p == 0 || p == 1 || n == 0 || n == 1) {
@@ -45,8 +36,6 @@ fun pageCount(n: Int, p: Int): Int {
 fun main(args: Array<String>) {
     val n = 5
     val p = 4
-//    val n = 37455
-//    val p = 29835
     val result = pageCount(n, p)
     println(result)
 }

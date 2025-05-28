@@ -1,10 +1,3 @@
-/*
- * Complete the 'gradingStudents' function below.
- *
- * The function is expected to return an INTEGER_ARRAY.
- * The function accepts INTEGER_ARRAY grades as parameter.
- */
-
 fun gradingStudents(grades: Array<Int>): Array<Int> {
     val roundedGrades = mutableListOf<Int>()
     grades.forEach {
@@ -20,8 +13,6 @@ fun gradingStudents(grades: Array<Int>): Array<Int> {
         }
     }
     return roundedGrades.toTypedArray()
-    // Write your code here
-
 }
 
 fun main(args: Array<String>) {

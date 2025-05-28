@@ -1,9 +1,3 @@
-/*
- * Complete the 'dayOfProgrammer' function below.
- *
- * The function is expected to return a STRING.
- * The function accepts INTEGER year as parameter.
- */
 val programmerDay = 256
 val julianCalendarStart = 1700
 val julianCalendarEnd = 2017
@@ -12,7 +6,6 @@ val gregorianCalendarStart = 2019
 
 
 fun dayOfProgrammer(year: Int): String {
-    // Write your code here
     var daysPerMonth = determinDaysPerMonth(year)
     var days = daysPerMonth.sum()
     var daysLeft = programmerDay - days

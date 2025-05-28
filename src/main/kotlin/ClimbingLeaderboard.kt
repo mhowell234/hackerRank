@@ -1,12 +1,3 @@
-/*
- * Complete the 'climbingLeaderboard' function below.
- *
- * The function is expected to return an INTEGER_ARRAY.
- * The function accepts following parameters:
- *  1. INTEGER_ARRAY ranked
- *  2. INTEGER_ARRAY player
- */
-
 fun climbingLeaderboard(ranked: Array<Int>, player: Array<Int>): Array<Int> {
     val ranked_without_dups = ranked.distinct().reversed()
     return player.map { findRank(it, ranked_without_dups) }.toTypedArray()

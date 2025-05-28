@@ -1,6 +1,5 @@
 import kotlin.math.abs
 
-// Complete the catAndMouse function below.
 fun catAndMouse(x: Int, y: Int, z: Int): String {
     val xDistance = abs(x - z)
     val yDistance = abs(y - z)

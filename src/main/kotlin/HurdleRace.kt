@@ -1,12 +1,3 @@
-/*
- * Complete the 'hurdleRace' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts following parameters:
- *  1. INTEGER k
- *  2. INTEGER_ARRAY height
- */
-
 fun hurdleRace(k: Int, height: Array<Int>): Int {
     val max = height.max()
 

@@ -1,10 +1,3 @@
-/*
- * Complete the 'breakingRecords' function below.
- *
- * The function is expected to return an INTEGER_ARRAY.
- * The function accepts INTEGER_ARRAY scores as parameter.
- */
-
 fun breakingRecords(scores: Array<Int>): Array<Int> {
     val records = arrayOf<Int>(0, 0)
 

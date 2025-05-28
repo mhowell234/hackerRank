@@ -1,9 +1,3 @@
-/*
- * Complete the 'plusMinus' function below.
- *
- * The function accepts INTEGER_ARRAY arr as parameter.
- */
-
 fun plusMinus(arr: Array<Int>) {
     val valueType = mutableListOf<Int>(0, 0, 0)
     arr.forEach {

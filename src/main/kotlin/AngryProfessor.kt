@@ -1,12 +1,3 @@
-/*
- * Complete the 'angryProfessor' function below.
- *
- * The function is expected to return a STRING.
- * The function accepts following parameters:
- *  1. INTEGER k
- *  2. INTEGER_ARRAY a
- */
-
 fun angryProfessor(k: Int, a: Array<Int>): String {
     var arrivedBeforeOrOntime = a.filter { it <= 0 }.size
 

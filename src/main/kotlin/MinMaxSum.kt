@@ -1,9 +1,3 @@
-/*
- * Complete the 'miniMaxSum' function below.
- *
- * The function accepts INTEGER_ARRAY arr as parameter.
- */
-
 fun miniMaxSum(arr: Array<Int>) {
     arr.sort()
     val longArr = arr.map { it.toLong() }.toLongArray()
@@ -13,7 +7,6 @@ fun miniMaxSum(arr: Array<Int>) {
     print(lowestValues.sum())
     print(' ')
     print(highestValues.sum())
-    // Write your code here
 }
 
 fun main(args: Array<String>) {

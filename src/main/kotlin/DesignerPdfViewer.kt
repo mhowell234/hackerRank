@@ -1,11 +1,3 @@
-/*
- * Complete the 'designerPdfViewer' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts following parameters:
- *  1. INTEGER_ARRAY h
- *  2. STRING word
- */
 val letters = mutableMapOf<Char, Int>()
 
 fun designerPdfViewer(h: Array<Int>, word: String): Int {

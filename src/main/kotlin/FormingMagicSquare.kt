@@ -1,13 +1,6 @@
 import kotlin.math.max
 import kotlin.math.min
 
-/*
- * Complete the 'formingMagicSquare' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts 2D_INTEGER_ARRAY s as parameter.
- */
-
 fun formingMagicSquare(s: Array<Array<Int>>): Int {
     var squares = arrayOf(
         arrayOf(arrayOf(8, 1, 6), arrayOf(3, 5, 7), arrayOf(4, 9, 2)),
@@ -33,8 +26,6 @@ fun formingMagicSquare(s: Array<Array<Int>>): Int {
     }
     return diffs.min()
 }
-
-fun magicValue(dimension: Int) = dimension * (dimension * dimension + 1) / 2
 
 fun main(args: Array<String>) {
     val s = arrayOf(arrayOf(4, 8, 2), arrayOf(4, 5, 7), arrayOf(6, 1, 6))
