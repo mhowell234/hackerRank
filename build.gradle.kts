@@ -1,5 +1,6 @@
 plugins {
     id("org.jetbrains.kotlin.jvm") version "2.1.20"
+    id("com.gradle.build-scan") version "3.13.2"
     id("idea")
     id("java")
 }
