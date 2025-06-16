@@ -9,7 +9,18 @@
 plugins {
     // Apply the foojay-resolver plugin to allow automatic download of JDKs
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.10.0"
+    id("com.gradle.develocity") version("4.0.2")
 }
 
-rootProject.name = "meta"
+rootProject.name = "mhowell234-kotlin-algos"
 include("lib")
+
+develocity {
+    buildScan {
+        termsOfUseUrl = "https://gradle.com/help/legal-terms-of-use"
+        termsOfUseAgree = "yes"
+        publishing.onlyIf { true }
+        tag("project:mhowell234-kotlin-algos")
+        tag("environment:dev")
+    }
+}
