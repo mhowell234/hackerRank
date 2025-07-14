@@ -14,7 +14,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
-    testImplementation("io.github.alexshamrai:junit-ctrf-extension:0.3.3")
+    testImplementation("io.github.alexshamrai:junit-ctrf-extension:0.3.5")
     testImplementation(platform("org.junit:junit-bom:5.13.1"))
     testImplementation("org.junit.jupiter:junit-jupiter-api")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
