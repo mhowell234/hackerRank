@@ -1,5 +1,5 @@
 plugins {
-    id("org.jetbrains.kotlin.jvm") version "2.2.0"
+    id("org.jetbrains.kotlin.jvm") version "2.2.20"
     id("com.gradle.build-scan") version "3.19.2"
     id("idea")
     id("java")
